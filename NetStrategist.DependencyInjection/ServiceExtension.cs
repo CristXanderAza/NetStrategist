@@ -7,7 +7,7 @@ namespace NetStrategist.DependencyInjection
     {
         public static StrategistBuilder<C, K> AddStrategist<C, K>(this IServiceCollection services)
         {
-            services.AddSingleton<Strategist<C, K>>();
+            services.AddSingleton<IStrategistFor<C,K>,Strategist<C, K>>();
             return new StrategistBuilder<C, K>(services);
         }
     }

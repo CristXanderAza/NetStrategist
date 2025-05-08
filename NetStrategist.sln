@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStrategist", "NetStrateg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStrategist.DependencyInjection", "NetStrategist.DependencyInjection\NetStrategist.DependencyInjection.csproj", "{03F26C6B-EAEC-4FEB-B4CB-FDCDF9D8D26D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStrategist.ApiExample", "NetStrategist.ApiExample\NetStrategist.ApiExample.csproj", "{87D96765-245E-4EB0-AB73-FE53951CDB42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03F26C6B-EAEC-4FEB-B4CB-FDCDF9D8D26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F26C6B-EAEC-4FEB-B4CB-FDCDF9D8D26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F26C6B-EAEC-4FEB-B4CB-FDCDF9D8D26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D96765-245E-4EB0-AB73-FE53951CDB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D96765-245E-4EB0-AB73-FE53951CDB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D96765-245E-4EB0-AB73-FE53951CDB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D96765-245E-4EB0-AB73-FE53951CDB42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
